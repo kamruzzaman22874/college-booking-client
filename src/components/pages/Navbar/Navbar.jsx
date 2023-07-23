@@ -1,24 +1,39 @@
-import { useContext, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { Bars3BottomRightIcon } from "@heroicons/react/24/solid";
 import { AuthContext } from "../../../providers/AuthProvider";
 
-
-
-
 const Navbar = () => {
     const [open, setOpen] = useState(false);
-    const { user, logOut } = useContext(AuthContext)
+    const [search , setSearch] = useState();
+    const { user, logOut, setFilterData } = useContext(AuthContext)
     const handleLogout = () =>{
         logOut()
         .then(() =>{})
         .catch(err => console.error(err));
     }
+
+    useEffect(() => {
+        fetch("http://localhost:5000/college")
+            .then(res => res.json())
+            .then(data => setSearch(data));
+    }, [])
+
+    const handleSearchBar = (e) => {
+        const query = (e.target.value.toLowerCase());
+        const data = search.filter(item => { 
+            item === query
+            return item.name.toLowerCase().includes(query)
+        })
+        setFilterData(data)
+    }
+
+  
     return (
         <>
             <div className="flex justify-between items-center p-4 sm:px-8 md:px-20 py-4 shadow-lg fixed z-10 top-0 w-full bg-[#ecf0f3]">
                 <Link className="text-2xl" to="/">College <span className="text-amber-400">Booking</span></Link>
-                <input 
+                <input onChange={handleSearchBar}
                      type="text" placeholder="Type here" className="md:block hidden input input-bordered input-success w-full max-w-xs" />
              
                 <nav className="space-x-4 hidden text-lg md:block">
