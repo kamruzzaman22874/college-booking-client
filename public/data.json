@@ -1,0 +1,294 @@
+ [
+    {
+    "name": "Dhaka College",
+    "image": "https://images.unsplash.com/photo-1648201158624-7141d2bb44e9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+    "admissionDates": "August 1 - August 15, 2023",
+    "ResearchNumber": "35",
+    "admissionProcess": "Raja Bazar Police Line College follows a simple and efficient four-step admission process. First, applicants fill out the application form. Second, they submit academic transcripts and test scores. If applicable, they attend an admission interview in step three. Finally, applicants receive the admission decision, opening doors to a rewarding academic journey at Raja Bazar Police Line College.",
+    "rating": "3.5",
+    "eventsDetails": {
+        "one": "Orientation Week: Welcome new students",
+        "two": "Cultural Festivals: Celebrate diverse cultures",
+        "three": "Academic Conferences: Present research findings",
+        "four": "Sports Tournaments: Compete in various sports",
+        "five": "Workshops and Seminars: Enhance skills and knowledge"
+    },
+    "researchWorks": {
+        "one": "Published Papers: Research articles in academic journals",
+        "two": "Research Projects: Ongoing and completed projects",
+        "three": "Collaborative Research: Partnerships with other institutions"
+    },
+    "sportsCategories": {
+        "one": "Team Sports: Football, Basketball, Soccer, Baseball",
+        "two": "Individual Sports: Tennis, Golf, Swimming, Track and Field",
+        "three": "Intramural Sports: Casual and recreational leagues",
+        "four": "Club Sports: Student-led sports clubs"
+    },
+    "events": "Orientation Week, Freshers' Party, Sports Meet",
+    "researchHistory": "Established in 1950, Pioneering research in various fields.",
+    "sports": "Football, Basketball, Swimming , Badminton"
+    },
+    {
+    "name": "Notre Dame College",
+    "image": "https://images.unsplash.com/photo-1654443757328-7622d3938883?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=80",
+    "admissionDates": "September 1 - September 30, 2023",
+    "ResearchNumber": "42",
+    "admissionProcess": "Raja Bazar Police Line College follows a simple and efficient four-step admission process. First, applicants fill out the application form. Second, they submit academic transcripts and test scores. If applicable, they attend an admission interview in step three. Finally, applicants receive the admission decision, opening doors to a rewarding academic journey at Raja Bazar Police Line College.",
+    "rating": "3.8",
+    "eventsDetails": {
+        "one": "Orientation Week: Welcome new students",
+        "two": "Cultural Festivals: Celebrate diverse cultures",
+        "three": "Academic Conferences: Present research findings",
+        "four": "Sports Tournaments: Compete in various sports",
+        "five": "Workshops and Seminars: Enhance skills and knowledge"
+    },
+    "researchWorks": {
+        "one": "Published Papers: Research articles in academic journals",
+        "two": "Research Projects: Ongoing and completed projects",
+        "three": "Collaborative Research: Partnerships with other institutions"
+    },
+    "sportsCategories": {
+        "one": "Team Sports: Football, Basketball, Soccer, Baseball",
+        "two": "Individual Sports: Tennis, Golf, Swimming, Track and Field",
+        "three": "Intramural Sports: Casual and recreational leagues",
+        "four": "Club Sports: Student-led sports clubs"
+    },
+    "events": "Science Expo, Cultural Fest, Alumni Meet",
+    "researchHistory": "A leader in scientific research and innovation.",
+    "sports": "Cricket, Tennis, Badminton"
+    },
+    {
+    "name": "Rajuk Uttara Model College",
+    "image": "https://images.unsplash.com/photo-1652203906963-c47fe9e5c641?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+    "admissionDates": "July 15 - August 31, 2023",
+    "ResearchNumber": "58",
+    "admissionProcess": "Raja Bazar Police Line College follows a simple and efficient four-step admission process. First, applicants fill out the application form. Second, they submit academic transcripts and test scores. If applicable, they attend an admission interview in step three. Finally, applicants receive the admission decision, opening doors to a rewarding academic journey at Raja Bazar Police Line College.",
+    "rating": "3.9",
+    "eventsDetails": {
+        "one": "Orientation Week: Welcome new students",
+        "two": "Cultural Festivals: Celebrate diverse cultures",
+        "three": "Academic Conferences: Present research findings",
+        "four": "Sports Tournaments: Compete in various sports",
+        "five": "Workshops and Seminars: Enhance skills and knowledge"
+    },
+    "researchWorks": {
+        "one": "Published Papers: Research articles in academic journals",
+        "two": "Research Projects: Ongoing and completed projects",
+        "three": "Collaborative Research: Partnerships with other institutions"
+    },
+    "sportsCategories": {
+        "one": "Team Sports: Football, Basketball, Soccer, Baseball",
+        "two": "Individual Sports: Tennis, Golf, Swimming, Track and Field",
+        "three": "Intramural Sports: Casual and recreational leagues",
+        "four": "Club Sports: Student-led sports clubs"
+    },
+    "events": "Tech Symposium, Drama Competition, Entrepreneurship Summit",
+    "researchHistory": "World-renowned research institute.",
+    "sports": "Volleyball, Table Tennis, Athletics"
+    },
+    {
+    "name": "Ideal College",
+    "image": "https://img.freepik.com/free-photo/modern-amphitheater-usa_1268-14358.jpg?w=740&t=st=1690088467~exp=1690089067~hmac=91e72bc07052fd8427eb6fa27d951e7641db26747e355fa48b2f649b40b304f2",
+    "admissionDates": "July 15 - August 31, 2023",
+    "ResearchNumber": "106",
+    "admissionProcess": "Raja Bazar Police Line College follows a simple and efficient four-step admission process. First, applicants fill out the application form. Second, they submit academic transcripts and test scores. If applicable, they attend an admission interview in step three. Finally, applicants receive the admission decision, opening doors to a rewarding academic journey at Raja Bazar Police Line College.",
+    "rating": "3.9",
+    "eventsDetails": {
+        "one": "Orientation Week: Welcome new students",
+        "two": "Cultural Festivals: Celebrate diverse cultures",
+        "three": "Academic Conferences: Present research findings",
+        "four": "Sports Tournaments: Compete in various sports",
+        "five": "Workshops and Seminars: Enhance skills and knowledge"
+    },
+    "researchWorks": {
+        "one": "Published Papers: Research articles in academic journals",
+        "two": "Research Projects: Ongoing and completed projects",
+        "three": "Collaborative Research: Partnerships with other institutions"
+    },
+    "sportsCategories": {
+        "one": "Team Sports: Football, Basketball, Soccer, Baseball",
+        "two": "Individual Sports: Tennis, Golf, Swimming, Track and Field",
+        "three": "Intramural Sports: Casual and recreational leagues",
+        "four": "Club Sports: Student-led sports clubs"
+    },
+    "events": "Tech Symposium, Drama Competition, Entrepreneurship Summit",
+    "researchHistory": "World-renowned research institute.",
+    "sports": "Volleyball, Table Tennis, Athletics"
+    },
+    {
+    "name": "Udayan College",
+    "image": "https://img.freepik.com/free-photo/back-view-medium-shot-two-teenage-girls-hugging_23-2148225288.jpg?w=740&t=st=1690089208~exp=1690089808~hmac=1f15a2a57fe7355934daf95be5c9ee91e34540a14f9401d1a6991798e906eabe",
+    "admissionDates": "July 15 - August 31, 2023",
+    "events": "Tech Symposium, Drama Competition, Entrepreneurship Summit",
+    "researchHistory": "World-renowned research institute.",
+    "ResearchNumber": "24",
+    "sports": "Volleyball, Table Tennis, Athletics",
+    "admissionProcess": "Raja Bazar Police Line College follows a simple and efficient four-step admission process. First, applicants fill out the application form. Second, they submit academic transcripts and test scores. If applicable, they attend an admission interview in step three. Finally, applicants receive the admission decision, opening doors to a rewarding academic journey at Raja Bazar Police Line College.",
+    "rating": "4.8",
+    "eventsDetails": {
+        "one": "Orientation Week: Welcome new students",
+        "two": "Cultural Festivals: Celebrate diverse cultures",
+        "three": "Academic Conferences: Present research findings",
+        "four": "Sports Tournaments: Compete in various sports",
+        "five": "Workshops and Seminars: Enhance skills and knowledge"
+    },
+    "researchWorks": {
+        "one": "Published Papers: Research articles in academic journals",
+        "two": "Research Projects: Ongoing and completed projects",
+        "three": "Collaborative Research: Partnerships with other institutions"
+    },
+    "sportsCategories": {
+        "one": "Team Sports: Football, Basketball, Soccer, Baseball",
+        "two": "Individual Sports: Tennis, Golf, Swimming, Track and Field",
+        "three": "Intramural Sports: Casual and recreational leagues",
+        "four": "Club Sports: Student-led sports clubs"
+    }
+    
+    },
+    {
+    "name": "Mymensignh Cadet College",
+    "image": "https://img.freepik.com/free-photo/aerial-view-residence-bukovinian-dalmatian-metropolitans-chernivtsi-national-university-chernivtsi-touristic-destination-western-ukraine_231208-51.jpg?w=900&t=st=1690089236~exp=1690089836~hmac=f302b95a423ee6d8683656b4d66e292064a445d5d875ddceaffce20d2cd7983c",
+    "admissionDates": "July 15 - August 31, 2023",
+    "ResearchNumber": "115",
+    "admissionProcess": "Raja Bazar Police Line College follows a simple and efficient four-step admission process. First, applicants fill out the application form. Second, they submit academic transcripts and test scores. If applicable, they attend an admission interview in step three. Finally, applicants receive the admission decision, opening doors to a rewarding academic journey at Raja Bazar Police Line College.",
+    "rating": "4.5",
+    "eventsDetails": {
+        "one": "Orientation Week: Welcome new students",
+        "two": "Cultural Festivals: Celebrate diverse cultures",
+        "three": "Academic Conferences: Present research findings",
+        "four": "Sports Tournaments: Compete in various sports",
+        "five": "Workshops and Seminars: Enhance skills and knowledge"
+    },
+    "researchWorks": {
+        "one": "Published Papers: Research articles in academic journals",
+        "two": "Research Projects: Ongoing and completed projects",
+        "three": "Collaborative Research: Partnerships with other institutions"
+    },
+    "sportsCategories": {
+        "one": "Team Sports: Football, Basketball, Soccer, Baseball",
+        "two": "Individual Sports: Tennis, Golf, Swimming, Track and Field",
+        "three": "Intramural Sports: Casual and recreational leagues",
+        "four": "Club Sports: Student-led sports clubs"
+    },
+    "events": "Tech Symposium, Drama Competition, Entrepreneurship Summit",
+    "researchHistory": "World-renowned research institute.",
+    "sports": "Volleyball, Table Tennis, Athletics"
+    },
+    {
+    "name": "Raja Bazar Police Line College",
+    "image": "https://img.freepik.com/free-photo/wide-angle-shot-building-front-park_181624-9836.jpg?w=740&t=st=1690089274~exp=1690089874~hmac=bf328141ee3f42a0662f8b823b92415e32153e5551f7f102effbf11697bbc599",
+    "admissionDates": "July 15 - August 31, 2023",
+    "ResearchNumber": "98",
+    "admissionProcess": "Raja Bazar Police Line College follows a simple and efficient four-step admission process. First, applicants fill out the application form. Second, they submit academic transcripts and test scores. If applicable, they attend an admission interview in step three. Finally, applicants receive the admission decision, opening doors to a rewarding academic journey at Raja Bazar Police Line College.",
+    "rating": "4.8",
+    "eventsDetails": {
+                "one": "Orientation Week: Welcome new students",
+                "two": "Cultural Festivals: Celebrate diverse cultures",
+                "three": "Academic Conferences: Present research findings",
+                "four":"Sports Tournaments: Compete in various sports",
+                "five":"Workshops and Seminars: Enhance skills and knowledge"
+     } ,
+    "researchWorks": {
+               "one": "Published Papers: Research articles in academic journals",
+               "two": "Research Projects: Ongoing and completed projects",
+               "three": "Collaborative Research: Partnerships with other institutions"
+    },
+    "sportsCategories": {
+               "one": "Team Sports: Football, Basketball, Soccer, Baseball",
+               "two":  "Individual Sports: Tennis, Golf, Swimming, Track and Field",
+               "three": "Intramural Sports: Casual and recreational leagues",
+               "four":"Club Sports: Student-led sports clubs"
+    },
+        
+    "events": "Tech Symposium, Drama Competition, Entrepreneurship Summit",
+    "researchHistory": "World-renowned research institute.",
+    "sports": "Volleyball, Table Tennis, Athletics"
+    },
+    {
+    "name": "Habibullah Bahar College",
+    "image": "https://img.freepik.com/free-photo/glass-buildings-seen-from-lake_1127-2268.jpg?w=740&t=st=1690089313~exp=1690089913~hmac=2f2a447e1e2ea94475fe67d0fb5b06771cb762707ebf9acf85ca84be03adfccc",
+    "admissionDates": "July 15 - August 31, 2023",
+    "ResearchNumber": "84",
+    "admissionProcess": "Raja Bazar Police Line College follows a simple and efficient four-step admission process. First, applicants fill out the application form. Second, they submit academic transcripts and test scores. If applicable, they attend an admission interview in step three. Finally, applicants receive the admission decision, opening doors to a rewarding academic journey at Raja Bazar Police Line College.",
+    "rating": "4.8",
+    "eventsDetails": {
+        "one": "Orientation Week: Welcome new students",
+        "two": "Cultural Festivals: Celebrate diverse cultures",
+        "three": "Academic Conferences: Present research findings",
+        "four": "Sports Tournaments: Compete in various sports",
+        "five": "Workshops and Seminars: Enhance skills and knowledge"
+    },
+    "researchWorks": {
+        "one": "Published Papers: Research articles in academic journals",
+        "two": "Research Projects: Ongoing and completed projects",
+        "three": "Collaborative Research: Partnerships with other institutions"
+    },
+    "sportsCategories": {
+        "one": "Team Sports: Football, Basketball, Soccer, Baseball",
+        "two": "Individual Sports: Tennis, Golf, Swimming, Track and Field",
+        "three": "Intramural Sports: Casual and recreational leagues",
+        "four": "Club Sports: Student-led sports clubs"
+    },
+    "events": "Tech Symposium, Drama Competition, Entrepreneurship Summit",
+    "researchHistory": "World-renowned research institute.",
+    "sports": "Volleyball, Table Tennis, Athletics"
+    },
+    {
+    "name": "Dhanmondi Govt College",
+    "image": "https://img.freepik.com/free-photo/park-lujiazui-financial-center-shanghai-china_1127-2860.jpg?w=740&t=st=1690089362~exp=1690089962~hmac=19ef1851fa255b1a08fb488298c3460d375506cfc501dcab9ca0a66848592f3e",
+    "admissionDates": "July 15 - August 31, 2023",
+    "ResearchNumber": "45",
+    "admissionProcess": "Raja Bazar Police Line College follows a simple and efficient four-step admission process. First, applicants fill out the application form. Second, they submit academic transcripts and test scores. If applicable, they attend an admission interview in step three. Finally, applicants receive the admission decision, opening doors to a rewarding academic journey at Raja Bazar Police Line College.",
+    "rating": "5.0",
+    "eventsDetails": {
+        "one": "Orientation Week: Welcome new students",
+        "two": "Cultural Festivals: Celebrate diverse cultures",
+        "three": "Academic Conferences: Present research findings",
+        "four": "Sports Tournaments: Compete in various sports",
+        "five": "Workshops and Seminars: Enhance skills and knowledge"
+    },
+    "researchWorks": {
+        "one": "Published Papers: Research articles in academic journals",
+        "two": "Research Projects: Ongoing and completed projects",
+        "three": "Collaborative Research: Partnerships with other institutions"
+    },
+    "sportsCategories": {
+        "one": "Team Sports: Football, Basketball, Soccer, Baseball",
+        "two": "Individual Sports: Tennis, Golf, Swimming, Track and Field",
+        "three": "Intramural Sports: Casual and recreational leagues",
+        "four": "Club Sports: Student-led sports clubs"
+    },
+    "events": "Tech Symposium, Drama Competition, Entrepreneurship Summit",
+    "researchHistory": "World-renowned research institute.",
+    "sports": "Volleyball, Table Tennis, Athletics"
+    },
+    {
+    "name": "Barishal Govt College",
+    "image": "https://img.freepik.com/free-photo/buildings-different-designs-glass_1127-2260.jpg?w=740&t=st=1690089390~exp=1690089990~hmac=0f33bc3df59a43c25404d89f531de6fd47eeb0fc841ad0036be4744bb530b662",
+    "admissionDates": "July 15 - August 31, 2023",
+    "ResearchNumber": "204",
+    "admissionProcess": "Raja Bazar Police Line College follows a simple and efficient four-step admission process. First, applicants fill out the application form. Second, they submit academic transcripts and test scores. If applicable, they attend an admission interview in step three. Finally, applicants receive the admission decision, opening doors to a rewarding academic journey at Raja Bazar Police Line College.",
+    "rating": "5.3",
+    "eventsDetails": {
+        "one": "Orientation Week: Welcome new students",
+        "two": "Cultural Festivals: Celebrate diverse cultures",
+        "three": "Academic Conferences: Present research findings",
+        "four": "Sports Tournaments: Compete in various sports",
+        "five": "Workshops and Seminars: Enhance skills and knowledge"
+    },
+    "researchWorks": {
+        "one": "Published Papers: Research articles in academic journals",
+        "two": "Research Projects: Ongoing and completed projects",
+        "three": "Collaborative Research: Partnerships with other institutions"
+    },
+    "sportsCategories": {
+        "one": "Team Sports: Football, Basketball, Soccer, Baseball",
+        "two": "Individual Sports: Tennis, Golf, Swimming, Track and Field",
+        "three": "Intramural Sports: Casual and recreational leagues",
+        "four": "Club Sports: Student-led sports clubs"
+    },
+    "events": "Tech Symposium, Drama Competition, Entrepreneurship Summit",
+    "researchHistory": "World-renowned research institute.",
+    "sports": "Volleyball, Table Tennis, Athletics"
+    }
+]
