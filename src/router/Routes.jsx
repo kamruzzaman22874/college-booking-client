@@ -9,10 +9,14 @@ import Addmission from "../components/Addmission/Addmission";
 import AddmissionForm from "../components/AddmissionForm/AddmissionForm";
 import PrivateRoute from "./PrivateRoute";
 import MyCollege from "../components/MyCollege/MyCollege";
+import ErrorPage from "../components/ErrorPage/ErrorPage";
+import Profile from "../components/Profile/Profile";
+import Update from "../components/Update/Update";
 const router = createBrowserRouter([
     {
         path: "/",
         element: <MainLayouts/>,
+        errorElement: <ErrorPage />,
         children: [
             {
                 path: "/",
@@ -25,6 +29,16 @@ const router = createBrowserRouter([
             {
                 path:"/register",
                 element: <Register/>
+            },
+            {
+                path: "/profile",
+                element: <Profile/>,
+                loader: () => fetch("http://localhost:5000/addmissions")
+            },
+            {
+                path: "/update/:id",
+                element: <Update/>,
+                loader: ({ params }) => fetch(`http://localhost:5000/update/${params.id}`)
             },
             {
                 path: "/college",

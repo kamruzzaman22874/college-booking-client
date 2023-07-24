@@ -73,13 +73,15 @@ const Navbar = () => {
                 {
                     user ? 
                     <>
-                            <div
-                                className='avatar tooltip flex items-center gap-5 tooltip-bottom tooltip-secondary hidden md:block'
-                                data-tip={user?.displayName}>
-                                <div className='w-10 rounded-full cursor-pointer ring ring-primary ring-offset-base-100 ring-offset-2'>
-                                    <img src={user?.photoURL} />
+                            <Link to="/profile">
+                                <div
+                                    className='avatar tooltip flex items-center gap-5 tooltip-bottom tooltip-secondary hidden md:block'
+                                    data-tip={user?.displayName}>
+                                    <div className='w-10 rounded-full cursor-pointer ring ring-primary ring-offset-base-100 ring-offset-2'>
+                                        <img src={user?.photoURL} />
+                                    </div>
                                 </div>
-                            </div>
+                            </Link>
                             <button onClick={handleLogout}>
                             <Link className="hidden md:block px-4 py-2 bg-[#79dd80] rounded text-white">
                                 Logout

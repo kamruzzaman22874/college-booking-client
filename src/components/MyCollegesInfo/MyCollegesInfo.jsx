@@ -31,7 +31,7 @@ const MyCollegesInfo = ({ college }) => {
             <div className="grid lg:grid-cols-2">
                 <div>
                     <div className="card-body">
-                        <figure><img src={image} alt="Shoes" /></figure>
+                        <figure><img src={image} alt="college" /></figure>
                         <p>Subject: {subject}</p>
                         <p>Name: {name}</p>
                         <p>Email: {email}</p>

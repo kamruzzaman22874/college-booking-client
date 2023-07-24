@@ -38,6 +38,7 @@ const Login = () => {
         .then(result =>{
             const googleSingnIn = result.user;
             console.log(googleSingnIn)
+            navigate(from, { replace: true });
         })
         .catch(err => console.error(err));
     }
