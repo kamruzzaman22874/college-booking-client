@@ -1,6 +1,7 @@
 const Gallery = () => {
     return (
-        <section className="py-6 dark:bg-gray-800 dark:text-gray-50">
+        <section className="py-4 dark:bg-gray-800 dark:text-gray-50">
+            <h2 className="text-4xl text-center my-6">All Of the Graduated</h2>
             <div className="container grid grid-cols-2 gap-4 p-4 mx-auto md:grid-cols-4">
                 <img src="https://img.freepik.com/free-photo/young-woman-wearing-graduation-gown-outside_23-2148505262.jpg?w=360&t=st=1690095533~exp=1690096133~hmac=75d2904cee931fdb9b152ff70c52ec3167fc369acbdf0d02dea8696265e2948a" alt="" className="w-full h-full col-span-2 row-span-2 rounded shadow-sm min-h-96 md:col-start-3 md:row-start-1 dark:bg-gray-500 aspect-square" />
                 <img alt="" className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square" src="https://img.freepik.com/free-photo/portrait-graduated-boy_23-2148522210.jpg?w=740&t=st=1690095059~exp=1690095659~hmac=5f1a4943de13a87a999ac1d0a8a089cb13f24cabee212fea103fea778c1c64d4" />
