@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { AiOutlineStar, AiFillStar } from 'react-icons/ai';
 
 const CollegesIDetails = ({college}) => {
-    const { _id, image, name, admissionDates, events, ResearchNumber, sports,rating } = college;
+    const { _id, image, name, admissionDates, ResearchNumber,rating } = college;
     return (
         <div className="md:my-12 mt-5">
             <div className="rounded-lg shadow-md flex flex-col justify-between p-4 h-full bg-white">
@@ -33,7 +33,7 @@ const CollegesIDetails = ({college}) => {
                     
                 </div>
                 <button className="w-full">
-                    <Link to={`/college/${_id}`} className="block px-4 py-2 bg-[#79dd80] rounded text-white">
+                    <Link to={`/colleges/${_id}`} className="block px-4 py-2 bg-[#79dd80] rounded text-white">
                         Details
                     </Link>
                 </button>

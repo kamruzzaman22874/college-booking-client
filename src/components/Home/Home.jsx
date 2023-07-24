@@ -6,13 +6,14 @@ import { AuthContext } from "../../providers/AuthProvider";
 import Rating from "react-rating";
 import { AiFillStar, AiOutlineStar } from "react-icons/ai";
 import { Link } from "react-router-dom";
+import Reviews from "../Reviews/Reviews";
 
 const Home = () => {
     const { filterData } = useContext(AuthContext)
     return (
         <div>
             <Banner />
-            <div className="grid md:grid-cols-3 gap-6">
+            <div className="grid md:grid-cols-3 gap-6 px-20">
                 {
                     filterData?.map(data => <>
 
@@ -55,6 +56,7 @@ const Home = () => {
             </div>
             <CollegeSection />
             <Gallery />
+            <Reviews/>
 
         </div>
     );

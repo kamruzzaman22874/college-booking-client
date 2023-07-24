@@ -3,7 +3,7 @@ import { GoogleAuthProvider, createUserWithEmailAndPassword, getAuth, onAuthStat
 import app from "../firebase/firebase.config";
 import { createContext, useEffect, useState } from "react";
 const auth = getAuth(app)
-export const AuthContext = createContext(null)
+export const AuthContext = createContext([])
 const AuthProvider = ({children}) => {
     const [user,setUser] = useState(null)
     const [loading , setLoading] = useState(true)

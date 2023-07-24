@@ -32,7 +32,7 @@ const Navbar = () => {
     return (
         <>
             <div className="flex justify-between items-center p-4 sm:px-8 md:px-20 py-4 shadow-lg fixed z-10 top-0 w-full bg-[#ecf0f3]">
-                <Link className="text-2xl" to="/">College <span className="text-amber-400">Booking</span></Link>
+                <Link className="text-2xl" to="/">Campus <span className="text-amber-400">Explorer</span></Link>
                 <input onChange={handleSearchBar}
                      type="text" placeholder="Type here" className="md:block hidden input input-bordered input-success w-full max-w-xs" />
              

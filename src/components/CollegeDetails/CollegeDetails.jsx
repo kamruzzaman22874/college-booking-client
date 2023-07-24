@@ -1,4 +1,4 @@
-import { useLoaderData } from 'react-router-dom';
+import { Link, useLoaderData } from 'react-router-dom';
 
 const CollegeDetails = () => {
     const collegeData = useLoaderData()
@@ -40,7 +40,7 @@ const CollegeDetails = () => {
                 </span>
             </p>
             <button className="mt-4 bg-[#79dd80] hover:bg-[#15701b] text-white font-bold py-2 px-4 rounded">
-                Details
+                <Link to="/">Back to Home</Link>
             </button>
         </div>
     );

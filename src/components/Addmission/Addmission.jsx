@@ -9,7 +9,7 @@ const Addmission = () => {
             .then(data => setAddmission(data))
     },[])
     return (
-        <div className="mt-20 px-20">
+        <div className="grid md:grid-cols-3 gap-6 mt-20 md:px-20">
             {
                 addmission?.map(add => <Addmissions
                 key={add._id}

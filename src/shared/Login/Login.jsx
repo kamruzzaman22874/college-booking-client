@@ -1,4 +1,4 @@
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import "./login.css"
 import { FcGoogle } from 'react-icons/fc';
 import { FaGithub } from 'react-icons/fa';
@@ -8,7 +8,9 @@ import Swal from "sweetalert2";
 const Login = () => {
     const { loginUser, googleLogin, resetPassword } = useContext(AuthContext)
     const emailRef = useRef()
-    const navigate = useNavigate()
+    const navigate = useNavigate();
+    const location = useLocation();
+    const from = location?.state?.from?.pathname || '/';
     const handleLogin =(event) =>{
         event.preventDefault();
         const form = event.target;
@@ -16,6 +18,7 @@ const Login = () => {
         const password = form.password.value;
         loginUser(email, password)
         .then(result => {
+            form.reset()
             const loggedUser = result.user;
             Swal.fire({
                 position: 'top-end',
@@ -25,8 +28,8 @@ const Login = () => {
                 timer: 1500
             })
             console.log(loggedUser);
-            form.reset()
-            navigate("/")
+            
+            navigate(from, { replace: true });
         })
         .catch(err => console.error(err));
     }

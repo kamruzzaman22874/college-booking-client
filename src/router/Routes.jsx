@@ -3,10 +3,12 @@ import MainLayouts from "../components/layouts/MainLayouts";
 import Login from "../shared/Login/Login";
 import Register from "../shared/Register/Register";
 import Home from "../components/Home/Home";
-import CollegeSection from "../components/CollegeSection/CollegeSection";
 import CollegeDetails from "../components/CollegeDetails/CollegeDetails";
 import SingleCollegeInfo from "../components/SingleCollegeInfo/SingleCollegeInfo";
 import Addmission from "../components/Addmission/Addmission";
+import AddmissionForm from "../components/AddmissionForm/AddmissionForm";
+import PrivateRoute from "./PrivateRoute";
+import MyCollege from "../components/MyCollege/MyCollege";
 const router = createBrowserRouter([
     {
         path: "/",
@@ -36,6 +38,15 @@ const router = createBrowserRouter([
             {
                 path: "/addmission",
                 element: <Addmission/>
+            },
+            {
+                path: "/addmission/:id",
+                element: <AddmissionForm/>
+            },
+            {
+                path: "/myCollege",
+                element: <PrivateRoute> <MyCollege /></PrivateRoute>,
+                loader: () => fetch("http://localhost:5000/addmissions")
             }
         ]
     },
