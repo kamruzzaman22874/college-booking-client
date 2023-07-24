@@ -5,48 +5,48 @@ import Swal from "sweetalert2";
 
 const Update = () => {
     const [newUpdate, setNewUpdate] = useState()
-   const updated = useLoaderData()
+    const updated = useLoaderData()
     const { _id, name, subject, email, dateOfBirth, phoneNumber } = updated;
-   const handleUpdate = (e)=>{
-       e.preventDefault();
-       const form = e.target;
-       const subject = form.subject.value;
-       const name = form.name.value;
-       const email = form.email.value;
-       const dateOfBirth = form.dateOfBirth.value;
-       const phoneNumber = form.phoneNumber.value;
-       const allInfo = {
-            subject:subject,
+    const handleUpdate = (e) => {
+        e.preventDefault();
+        const form = e.target;
+        const subject = form.subject.value;
+        const name = form.name.value;
+        const email = form.email.value;
+        const dateOfBirth = form.dateOfBirth.value;
+        const phoneNumber = form.phoneNumber.value;
+        const allInfo = {
+            subject: subject,
             name: name,
-            email:email,
-            dateOfBirth:dateOfBirth,
-           phoneNumber:phoneNumber
-       }
-
-       fetch(`http://localhost:5000/update/${_id}`,{
-        method: "PATCH",
-        headers: {
-            'content-type': 'application/json'
-        },
-        body: JSON.stringify(allInfo)
-       })
-       .then(res => res.json())
-       .then(data => {
-           if (data.modifiedCount > 0){
-            Swal.fire({
-                position: 'top-middle',
-                icon: 'success',
-                title: 'Updated Successfully',
-                showConfirmButton: false,
-                timer: 1500
-            })
+            email: email,
+            dateOfBirth: dateOfBirth,
+            phoneNumber: phoneNumber
         }
-           console.log(data);
-       })
-       
-   }
 
-   
+        fetch(`https://college-booking-server-nine.vercel.app/update/${_id}`, {
+            method: "PATCH",
+            headers: {
+                'content-type': 'application/json'
+            },
+            body: JSON.stringify(allInfo)
+        })
+            .then(res => res.json())
+            .then(data => {
+                if (data.modifiedCount > 0) {
+                    Swal.fire({
+                        position: 'top-middle',
+                        icon: 'success',
+                        title: 'Updated Successfully',
+                        showConfirmButton: false,
+                        timer: 1500
+                    })
+                }
+                console.log(data);
+            })
+
+    }
+
+
     return (
         <div className="container mx-auto my-24">
             <form onSubmit={handleUpdate} className="w-full max-w-lg mx-auto">
@@ -60,7 +60,7 @@ const Update = () => {
                         id="subject"
                         name="subject"
                         className="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                        
+
                     />
                 </div>
                 <div className="mb-4">
@@ -73,7 +73,7 @@ const Update = () => {
                         id="name"
                         name="name"
                         className="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                        
+
                     />
                 </div>
                 <div className="mb-4">
@@ -86,7 +86,7 @@ const Update = () => {
                         id="email"
                         name="email"
                         className="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                        
+
                     />
                 </div>
                 <div className="mb-4">
@@ -98,7 +98,7 @@ const Update = () => {
                         id="dateOfBirth"
                         name="dateOfBirth"
                         className="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                        
+
                     />
                 </div>
                 <div className="mb-4">
@@ -111,7 +111,7 @@ const Update = () => {
                         id="phoneNumber"
                         name="phoneNumber"
                         className="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                        
+
                     />
                 </div>
                 <div className="flex items-center justify-center">

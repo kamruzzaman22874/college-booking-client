@@ -1,4 +1,4 @@
-import {createBrowserRouter} from "react-router-dom";
+import { createBrowserRouter } from "react-router-dom";
 import MainLayouts from "../components/layouts/MainLayouts";
 import Login from "../shared/Login/Login";
 import Register from "../shared/Register/Register";
@@ -15,52 +15,52 @@ import Update from "../components/Update/Update";
 const router = createBrowserRouter([
     {
         path: "/",
-        element: <MainLayouts/>,
+        element: <MainLayouts />,
         errorElement: <ErrorPage />,
         children: [
             {
                 path: "/",
-                element: <Home/>
+                element: <Home />
             },
             {
                 path: "/login",
-                element: <Login/>
+                element: <Login />
             },
             {
-                path:"/register",
-                element: <Register/>
+                path: "/register",
+                element: <Register />
             },
             {
                 path: "/profile",
-                element: <Profile/>,
-                loader: () => fetch("http://localhost:5000/addmissions")
+                element: <Profile />,
+                loader: () => fetch("https://college-booking-server-nine.vercel.app/addmissions")
             },
             {
                 path: "/update/:id",
-                element: <Update/>,
-                loader: ({ params }) => fetch(`http://localhost:5000/update/${params.id}`)
+                element: <Update />,
+                loader: ({ params }) => fetch(`https://college-booking-server-nine.vercel.app/update/${params.id}`)
             },
             {
                 path: "/college",
-                element: <SingleCollegeInfo/>
+                element: <SingleCollegeInfo />
             },
             {
                 path: "/colleges/:id",
-                element: <CollegeDetails/>,
-                loader: ({ params }) => fetch(`http://localhost:5000/colleges/${params.id}`)
+                element: <CollegeDetails />,
+                loader: ({ params }) => fetch(`https://college-booking-server-nine.vercel.app/colleges/${params.id}`)
             },
             {
                 path: "/addmission",
-                element: <Addmission/>
+                element: <Addmission />
             },
             {
                 path: "/addmission/:id",
-                element: <AddmissionForm/>
+                element: <AddmissionForm />
             },
             {
                 path: "/myCollege",
                 element: <PrivateRoute> <MyCollege /></PrivateRoute>,
-                loader: () => fetch("http://localhost:5000/addmissions")
+                loader: () => fetch("https://college-booking-server-nine.vercel.app/addmissions")
             }
         ]
     },

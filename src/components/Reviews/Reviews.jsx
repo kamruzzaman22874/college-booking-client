@@ -5,10 +5,10 @@ import { AuthContext } from "../../providers/AuthProvider";
 
 const Reviews = () => {
     const [reviews, setReviews] = useState([])
-    const {user} = useContext(AuthContext)
+    const { user } = useContext(AuthContext)
     console.log(user)
     useEffect(() => {
-        fetch("http://localhost:5000/review")
+        fetch("https://college-booking-server-nine.vercel.app/review")
             .then(res => res.json())
             .then(data => setReviews(data))
     }, [])
@@ -45,7 +45,7 @@ const Reviews = () => {
                                             />
 
                                         </p>
-                                        <p className="text-sm uppercase">{}</p>
+                                        <p className="text-sm uppercase">{ }</p>
                                     </div>
                                 </div>
                             </div>

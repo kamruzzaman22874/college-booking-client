@@ -5,7 +5,7 @@ const MyCollegesInfo = ({ college }) => {
     const [rating, setRating] = useState(0);
     const { name, email, image, subject, dateOfBirth, phoneNumber } = college;
 
-    const handleFeedback =(e) =>{
+    const handleFeedback = (e) => {
         e.preventDefault();
         const form = e.target;
         const name = form.review.value;
@@ -16,7 +16,7 @@ const MyCollegesInfo = ({ college }) => {
             name,
         }
 
-        fetch("http://localhost:5000/review",{
+        fetch("https://college-booking-server-nine.vercel.app/review", {
             method: "POST",
             headers: {
                 "content-type": "application/json",
@@ -54,7 +54,7 @@ const MyCollegesInfo = ({ college }) => {
                             <input className='bg-[#79dd80] cursor-pointer text-white px-8 py-3 rounded-full' type="submit" value="submit" />
                         </div>
                     </form>
-                
+
                 </div>
             </div>
         </div>

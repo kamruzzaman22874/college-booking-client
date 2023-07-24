@@ -83,7 +83,7 @@ const Footer = () => {
                 <hr className="mt-16 mb-10 border-gray-800" />
 
                 <div className="flex flex-wrap items-center justify-between">
-                    <p className='text-white'>COLLEGE BOOKING</p>
+                    <p className='text-white uppercase'>Campus <span className="text-xl text-amber-600">Explorer</span></p>
 
                     <ul className="flex items-center space-x-3 md:order-3">
                         <li>

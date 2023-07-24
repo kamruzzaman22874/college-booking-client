@@ -26,10 +26,10 @@ const AddmissionForm = () => {
                         phoneNumber,
                         address,
                         dateOfBirth,
-                        image:imageURL
+                        image: imageURL
                     }
                     console.log(addmissionInfo);
-                    fetch('http://localhost:5000/addmissions', {
+                    fetch('https://college-booking-server-nine.vercel.app/addmissions', {
                         method: 'POST',
                         headers: {
                             'content-type': 'application/json'
@@ -78,7 +78,7 @@ const AddmissionForm = () => {
                     <div className='col-span-full sm:col-span-3'>
                         <label className='text-md text-white'>Email</label>
                         <input
-                            
+
                             placeholder='email'
                             {...register('email')}
                             className='w-full p-2 rounded-md focus:ring focus:ring-opacity-75 focus:ring-violet-400 dark:border-gray-700 dark:text-gray-900'
@@ -87,7 +87,7 @@ const AddmissionForm = () => {
                     <div className='col-span-full sm:col-span-3'>
                         <label className='text-md text-white'>Phone Number</label>
                         <input
-                    
+
                             {...register('phoneNumber')}
                             placeholder='phone Number'
                             className='w-full p-2 rounded-md focus:ring focus:ring-opacity-75 focus:ring-violet-400 dark:border-gray-700 dark:text-gray-900'
@@ -112,15 +112,15 @@ const AddmissionForm = () => {
                         />
                     </div>
 
-                            <label className='text-md text-white'>Image</label>
+                    <label className='text-md text-white'>Image</label>
                     <div className='col-span-full flex items-center gap-4'>
-                      <div className="w-[50%]">
+                        <div className="w-[50%]">
                             <input
                                 type='file'
                                 {...register('image', { required: true })}
                                 className='w-full p-2 border-2 rounded-md focus:ring focus:ring-opacity-75 focus:ring-violet-400 dark:border-gray-700 dark:text-gray-900'
                             />
-                      </div>
+                        </div>
                         <div>
                             <input
                                 className='hover:bg-[#ECE5C7] cursor-pointer px-4 py-3 text-white hover:text-black rounded border-b-4 hover:border-b-[#090580] font-semibold bg-[#79dd80]'
@@ -130,10 +130,10 @@ const AddmissionForm = () => {
                         </div>
                     </div>
 
-                    
+
                 </div>
             </fieldset>
-           
+
         </form>
     );
 };

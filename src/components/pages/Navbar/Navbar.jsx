@@ -5,37 +5,37 @@ import { AuthContext } from "../../../providers/AuthProvider";
 
 const Navbar = () => {
     const [open, setOpen] = useState(false);
-    const [search , setSearch] = useState();
+    const [search, setSearch] = useState();
     const { user, logOut, setFilterData } = useContext(AuthContext)
-    const handleLogout = () =>{
+    const handleLogout = () => {
         logOut()
-        .then(() =>{})
-        .catch(err => console.error(err));
+            .then(() => { })
+            .catch(err => console.error(err));
     }
 
     useEffect(() => {
-        fetch("http://localhost:5000/college")
+        fetch("https://college-booking-server-nine.vercel.app/college")
             .then(res => res.json())
             .then(data => setSearch(data));
     }, [])
 
     const handleSearchBar = (e) => {
         const query = (e.target.value.toLowerCase());
-        const data = search.filter(item => { 
+        const data = search.filter(item => {
             item === query
             return item.name.toLowerCase().includes(query)
         })
         setFilterData(data)
     }
 
-  
+
     return (
         <>
             <div className="flex justify-between items-center p-4 sm:px-8 md:px-20 py-4 shadow-lg fixed z-10 top-0 w-full bg-[#ecf0f3]">
-                <Link className="text-2xl" to="/">Campus <span className="text-amber-400">Explorer</span></Link>
+                <Link className="text-2xl uppercase" to="/">Campus <span className="text-amber-400">Explorer</span></Link>
                 <input onChange={handleSearchBar}
-                     type="text" placeholder="Type here" className="md:block hidden md:hidden lg:block input input-bordered input-success w-full max-w-xs" />
-             
+                    type="text" placeholder="Type here" className="md:block hidden md:hidden lg:block input input-bordered input-success w-full max-w-xs" />
+
                 <nav className="space-x-4 hidden text-lg md:hidden lg:block">
                     <NavLink
                         className={({ isActive }) =>
@@ -71,8 +71,8 @@ const Navbar = () => {
                     </NavLink>
                 </nav>
                 {
-                    user ? 
-                    <>
+                    user ?
+                        <>
                             <Link to="/profile">
                                 <div
                                     className='avatar tooltip flex items-center gap-5 tooltip-bottom tooltip-secondary hidden md:block'
@@ -83,11 +83,11 @@ const Navbar = () => {
                                 </div>
                             </Link>
                             <button onClick={handleLogout}>
-                            <Link className="hidden md:block px-4 py-2 bg-[#79dd80] rounded text-white">
-                                Logout
-                            </Link>
+                                <Link className="hidden md:block px-4 py-2 bg-[#79dd80] rounded text-white">
+                                    Logout
+                                </Link>
                             </button>
-                            </>
+                        </>
                         : <Link to="/login" className="hidden md:block px-4 py-2 bg-[#79dd80] rounded text-white">
                             Login
                         </Link>
@@ -147,7 +147,7 @@ const Navbar = () => {
                             </Link>
                         </div>
                     </nav>
-                    
+
                 )}
             </div>
         </>

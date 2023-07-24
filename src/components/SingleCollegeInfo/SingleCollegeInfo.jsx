@@ -4,7 +4,7 @@ import CollegesIDetails from "../CollegesIDetails/CollegesIDetails";
 const SingleCollegeInfo = () => {
     const [collegeDatas, setCollegeDatas] = useState([])
     useEffect(() => {
-        fetch("http://localhost:5000/college")
+        fetch("https://college-booking-server-nine.vercel.app/college")
             .then(res => res.json())
             .then(data => setCollegeDatas(data))
     }, [])
