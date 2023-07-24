@@ -27,7 +27,7 @@ const MyCollegesInfo = ({ college }) => {
 
     return (
 
-        <div className="card  bg-base-100 shadow-xl">
+        <div className="card bg-base-100 shadow-xl mt-3">
             <div className="grid lg:grid-cols-2">
                 <div>
                     <div className="card-body">
@@ -49,7 +49,7 @@ const MyCollegesInfo = ({ college }) => {
                         />
                     </div>
                     <form className='flex justify-center' onSubmit={handleFeedback}>
-                        <div className=''>
+                        <div className='p-4'>
                             <textarea name='review' className="textarea  my-6 textarea-accent" placeholder="Bio"></textarea> <br />
                             <input className='bg-[#79dd80] cursor-pointer text-white px-8 py-3 rounded-full' type="submit" value="submit" />
                         </div>

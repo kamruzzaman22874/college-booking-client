@@ -49,7 +49,15 @@ const Login = () => {
             return;
         }
         resetPassword(email)
-        .then(() => {})
+        .then(() => {
+            Swal.fire({
+                position: 'top-middle',
+                icon: 'success',
+                title: 'Check your email',
+                showConfirmButton: false,
+                timer: 1500
+            })
+        })
         .catch(err => console.error(err));
     }
     return (

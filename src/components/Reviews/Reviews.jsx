@@ -42,11 +42,10 @@ const Reviews = () => {
                                                 style={{ maxWidth: 220 }}
                                                 value={review.rating}
                                                 readonly
-                                                isRequired
                                             />
 
                                         </p>
-                                        <p className="text-sm uppercase">{review.user?.displayName}</p>
+                                        <p className="text-sm uppercase">{}</p>
                                     </div>
                                 </div>
                             </div>

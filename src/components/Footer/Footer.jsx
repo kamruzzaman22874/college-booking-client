@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Footer = () => {
     return (
         <section className="py-10 bg-gray-900 sm:pt-16 lg:pt-24">
@@ -131,7 +129,7 @@ const Footer = () => {
                         </li>
                     </ul>
 
-                    <p className="w-full mt-8 text-sm text-center text-gray-100 md:mt-0 md:w-auto md:order-2">© Copyright 2021, All Rights Reserved by Postcraft</p>
+                    <p className="w-full mt-8 text-sm text-center text-gray-100 md:mt-0 md:w-auto md:order-2">© Copyright 2021, All Rights Reserved by Campus Explorer</p>
                 </div>
             </div>
         </section>
